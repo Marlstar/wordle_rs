@@ -8,14 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e32bab7f-a44a-458d-9ade-44388b8b2fa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wordle_rs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app_egui.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app_iced.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sized_string.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app_egui.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app_iced.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/app_iced.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sized_string.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sized_string.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +124,9 @@
       <workItem from="1713828058509" duration="754000" />
       <workItem from="1713828833644" duration="644000" />
       <workItem from="1713856310540" duration="57000" />
+      <workItem from="1713856640627" duration="1594000" />
+      <workItem from="1713860574034" duration="2303000" />
+      <workItem from="1713863370081" duration="3532000" />
     </task>
     <servers />
   </component>
