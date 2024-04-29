@@ -24,8 +24,8 @@ impl<const N: usize> SizedString<N> {
         return [' '; N] == self.s
     }
 
-    pub fn as_str(&self) -> &str {
-        return String::from_iter(self.s).as_str();
+    pub fn as_string(&self) -> String {
+        return String::from_iter(self.s);
     }
 
     pub fn set(&mut self, new_value: &str) {
@@ -50,18 +50,21 @@ impl<const N: usize> SizedString<N> {
     }
 
     pub fn count_unique_letters(&self) -> usize {
+        return self.unique_letters().iter().count();
+    }
+    pub fn unique_letters(&self) -> Vec<char> {
         let mut counted: Vec<char> = vec![];
         for letter in self.s {
             if !counted.contains(&letter) {
                 counted.push(letter);
             }
-        }
-        return counted.iter().count();
+        };
+        return counted;
     }
 }
 
 impl<const N: usize> PartialEq for SizedString<N> {
     fn eq(&self, other: &Self) -> bool {
-        return self.as_str() == other.as_str()
+        return self.as_string() == other.as_string()
     }
 }
