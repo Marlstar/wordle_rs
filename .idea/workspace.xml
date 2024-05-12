@@ -7,14 +7,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32bab7f-a44a-458d-9ade-44388b8b2fa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wordle.rs" afterDir="false" />
+    <list default="true" id="e32bab7f-a44a-458d-9ade-44388b8b2fa0" name="Changes" comment="The current (broken) state of button colouring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app_iced.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/wordle_backend.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sized_string.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sized_string.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sized_string.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/disabled/sized_string.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wordle.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/wordle.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wordle_backend.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/wordle_backend.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="2f232900-cc8d-479a-ba35-c6c5ab5e039f" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="59y79err" />
@@ -67,11 +68,17 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
     &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/marle/code/wordle_rs/src/disabled/sized_string.rs&quot;: &quot;true&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marle\code\wordle_rs\src\disabled" />
+    </key>
+  </component>
   <component name="RunManager" selected="Cargo.Run wordle_rs">
     <configuration name="Run wordle_rs" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package wordle_rs --bin wordle_rs" />
@@ -134,8 +141,24 @@
       <workItem from="1714105735948" duration="744000" />
       <workItem from="1714106655043" duration="2576000" />
       <workItem from="1714354610865" duration="4055000" />
-      <workItem from="1714425573226" duration="335000" />
+      <workItem from="1714425573226" duration="528000" />
+      <workItem from="1714427670025" duration="808000" />
+      <workItem from="1714430815506" duration="1810000" />
+      <workItem from="1714516420956" duration="472000" />
+      <workItem from="1714529627265" duration="1639000" />
+      <workItem from="1715033581150" duration="6100000" />
+      <workItem from="1715119159950" duration="28000" />
+      <workItem from="1715120180148" duration="36000" />
     </task>
+    <task id="LOCAL-00001" summary="The current (broken) state of button colouring">
+      <option name="closed" value="true" />
+      <created>1714426084583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714426084583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="The current (broken) state of button colouring" />
+    <option name="LAST_COMMIT_MESSAGE" value="The current (broken) state of button colouring" />
   </component>
 </project>

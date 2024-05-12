@@ -2,7 +2,6 @@
 #![allow(dead_code, unused_imports)]
 
 mod wordle_backend;
-pub mod sized_string; use sized_string::SizedString;
 mod wordle;
 
 use iced::{
